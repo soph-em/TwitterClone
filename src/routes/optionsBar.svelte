@@ -1,6 +1,7 @@
 <script>
 </script>
 
+<!-- twitter bird svg -->
 <svg class="bird" width="50px" height="50px" viewBox="0 0 256 209">
 	<path
 		fill="#55acee"
@@ -9,6 +10,7 @@
 </svg>
 
 <section>
+	<!-- Home -->
 	<div class="home iconWord">
 		<svg class="icon" width="30px" height="30px" viewBox="0 0 24 24"
 			><path
@@ -19,6 +21,7 @@
 
 		<a href="/">Home</a>
 	</div>
+	<!-- Explore -->
 	<div class="iconWord">
 		<svg width="30px" height="30px" viewBox="0 0 24 24"
 			><g fill="none" fillRule="evenodd"
@@ -32,6 +35,7 @@
 		>
 		<a href="/explore">Explore</a>
 	</div>
+	<!-- Notifications -->
 	<div class="iconWord">
 		<svg width="30px" height="30px" viewBox="0 0 512 512"
 			><path
@@ -39,8 +43,9 @@
 				d="m450.27 348.569l-43.67-80.624V184c0-83.813-68.187-152-152-152s-152 68.187-152 152v83.945l-43.672 80.623A24 24 0 0 0 80.031 384h86.935a88.866 88.866 0 0 0-.367 8a88 88 0 0 0 176 0c0-2.7-.129-5.364-.367-8h86.935a24 24 0 0 0 21.1-35.431ZM310.6 392a56 56 0 1 1-111.419-8h110.837a56.14 56.14 0 0 1 .582 8ZM93.462 352l41.138-75.945V184a120 120 0 0 1 240 0v92.055L415.736 352Z"
 			/></svg
 		>
-		<a href="/">Notifications</a>
+		<a href="/Notifications">Notifications</a>
 	</div>
+	<!-- Messages -->
 	<div class="iconWord">
 		<svg width="30px" height="30px" viewBox="0 0 24 24"
 			><path
@@ -48,8 +53,9 @@
 				d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223l-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044L20.002 18H4z"
 			/></svg
 		>
-		<a href="/">Messages</a>
+		<a href="/Messages">Messages</a>
 	</div>
+	<!-- Bookmarks -->
 	<div class="iconWord">
 		<svg width="30px" height="30px" viewBox="0 0 24 24"
 			><path
@@ -57,8 +63,9 @@
 				d="M5 21V5q0-.825.588-1.413Q6.175 3 7 3h10q.825 0 1.413.587Q19 4.175 19 5v16l-7-3Zm2-3.05l5-2.15l5 2.15V5H7ZM7 5h10h-5Z"
 			/></svg
 		>
-		<a href="/">Bookmarks</a>
+		<a href="/Bookmarks">Bookmarks</a>
 	</div>
+	<!-- Profile -->
 	<div class="iconWord">
 		<svg width="30px" height="30px" viewBox="0 0 32 32"
 			><path
@@ -69,8 +76,9 @@
 				d="M16 2a14 14 0 1 0 14 14A14.016 14.016 0 0 0 16 2Zm-6 24.377V25a3.003 3.003 0 0 1 3-3h6a3.003 3.003 0 0 1 3 3v1.377a11.899 11.899 0 0 1-12 0Zm13.992-1.451A5.002 5.002 0 0 0 19 20h-6a5.002 5.002 0 0 0-4.992 4.926a12 12 0 1 1 15.985 0Z"
 			/></svg
 		>
-		<a href="/">Profile</a>
+		<a href="/Profile">Profile</a>
 	</div>
+	<!-- More -->
 	<div class="iconWord">
 		<svg width="30px" height="30px" viewBox="0 0 256 256"
 			><path
@@ -78,7 +86,7 @@
 				d="M128 24a104 104 0 1 0 104 104A104.2 104.2 0 0 0 128 24Zm0 192a88 88 0 1 1 88-88a88.1 88.1 0 0 1-88 88Zm12-88a12 12 0 1 1-12-12a12 12 0 0 1 12 12Zm48 0a12 12 0 1 1-12-12a12 12 0 0 1 12 12Zm-96 0a12 12 0 1 1-12-12a12 12 0 0 1 12 12Z"
 			/></svg
 		>
-		<a href="/">More</a>
+		<a href="/More">More</a>
 	</div>
 
 	<button href="/">Tweet</button>

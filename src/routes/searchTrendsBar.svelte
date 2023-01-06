@@ -10,20 +10,40 @@
 		>
 		<input placeholder="search" />
 	</div>
+
+	<div class="trending">
+		<p>What's Happening</p>
+	</div>
 </section>
 
 <style>
 	.search {
 		display: flex;
 		flex-direction: row;
-		background-color: lightgray;
+		background-color: #e9e9e9;
 		border-radius: 40px;
 		min-height: 5vh;
 		max-height: 5vh;
 		max-width: 300px;
 	}
+
+	.trending {
+		margin-top: 40px;
+		display: flex;
+		flex-direction: row;
+		background-color: #e9e9e9;
+		border-radius: 30px;
+		min-height: 50vh;
+		max-height: 50vh;
+		max-width: 300px;
+	}
+	p {
+		font-size: 18px;
+		padding-left: 25px;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
 	input {
-		background-color: lightgray;
+		background-color: #e9e9e9;
 		outline: 0;
 		border: 0cm;
 		border-radius: 40px;
