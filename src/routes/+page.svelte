@@ -2,6 +2,8 @@
 	import OptionsBar from './optionsBar.svelte';
 	import Feed from './mainFeed.svelte';
 	import SearchTrendsBar from './searchTrendsBar.svelte';
+	import type { PageData } from './$types';
+	export let data: PageData;
 </script>
 
 <!-- 
@@ -12,7 +14,7 @@
 		<OptionsBar />
 	</div>
 	<div class="feed">
-		<Feed />
+		<Feed tweets={data.tweets} />
 	</div>
 	<div class="search">
 		<SearchTrendsBar />
@@ -30,6 +32,8 @@
 
 	.feed {
 		min-width: 40%;
+		display: flex;
+		flex-direction: column;
 	}
 	.search {
 		margin-left: auto;
