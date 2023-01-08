@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 </script>
 
 <!-- twitter bird svg -->

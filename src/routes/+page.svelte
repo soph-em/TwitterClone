@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import OptionsBar from './optionsBar.svelte';
 	import Feed from './mainFeed.svelte';
 	import SearchTrendsBar from './searchTrendsBar.svelte';

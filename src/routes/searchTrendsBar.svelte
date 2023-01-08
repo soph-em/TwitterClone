@@ -1,4 +1,4 @@
-<script></script>
+<script lang="ts"></script>
 
 <section>
 	<div class="search">
@@ -39,6 +39,8 @@
 	}
 	p {
 		font-size: 18px;
+		font-style: bold;
+		font-weight: bold;
 		padding-left: 25px;
 		font-family: Verdana, Geneva, Tahoma, sans-serif;
 	}
