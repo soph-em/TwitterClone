@@ -4,11 +4,15 @@
 	let val = '';
 
 	function sendTweet() {
-		console.log('POST');
 		fetch('/api/tweets', { method: 'POST', body: JSON.stringify({ userId: 1, content: val }) });
+		// fetch('/api.tweets', {
+		// 	method: 'POST',
+		// 	body: JSON.stringify({ posted: new Date().toLocaleString() })
+		// });
 		val = '';
 	}
 	export let tweets;
+	console.log('tweets:', tweets);
 </script>
 
 <h1>Home</h1>
@@ -17,13 +21,18 @@
 </div>
 
 <button on:click={sendTweet} class="tweetButton">Tweet</button>
-
-{#each tweets.reverse() as tweet}
-	<div>
-		<p>@twitteruser</p>
-		<p>{tweet.content}</p>
-	</div>
-{/each}
+{#if tweets}
+	{#each tweets.reverse() as tweet}
+		<div>
+			<div class="handleTime">
+				<p class="userID">@twitteruser</p>
+				<p>&nbsp;·&nbsp;</p>
+				<p>{new Date(tweet.posted).toLocaleString()}</p>
+			</div>
+			<p class="tweet">{tweet.content}</p>
+		</div>
+	{/each}
+{/if}
 
 <style>
 	h1 {
@@ -48,6 +57,17 @@
 		align-self: flex-end;
 	}
 
+	.tweet {
+		font-size: large;
+	}
+
+	.userID {
+		color: grey;
+	}
+
+	.handleTime {
+		display: flex;
+	}
 	p {
 		font-size: larger;
 		font-family: Verdana, Geneva, Tahoma, sans-serif;

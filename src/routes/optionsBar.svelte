@@ -93,6 +93,7 @@
 </section>
 
 <style>
+	/* navbar links */
 	a {
 		display: flex;
 		flex-direction: column;
@@ -102,8 +103,10 @@
 
 		text-decoration: none;
 		align-self: center;
-	}
 
+		color: black;
+	}
+	/* "Tweet" button in left nav bar */
 	button {
 		background-color: #1da1f2;
 		outline: #1da1f2;
@@ -121,16 +124,17 @@
 		outline: 2px solid transparent;
 		outline-offset: 2px;
 	}
+
+	svg {
+		padding: 5px;
+		align-self: center;
+	}
 	.iconWord {
 		display: flex;
 		flex-direction: row;
 		padding: 20px;
 	}
 
-	svg {
-		padding: 5px;
-		align-self: center;
-	}
 	.bird {
 		padding: 30px;
 	}

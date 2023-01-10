@@ -13,11 +13,11 @@ export const POST = (async ({ url, request }) => {
             likes: 0,
             userId,
             url: '',
-            posted: new Date('01/01/2023'),
+            posted: new Date(),
 
         }
     })
-
+    console.log(tweet)
     return json(tweet);
 
 }) satisfies RequestHandler;
