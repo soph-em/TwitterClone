@@ -28,14 +28,14 @@
 			<!-- photo icon -->
 			<svg width="30px" height="30px" viewBox="0 0 24 24"
 				><path
-					fill="currentColor"
+					fill="#1da1f2"
 					d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-4.86 8.86l-3 3.87L9 13.14L6 17h12l-3.86-5.14z"
 				/></svg
 			>
 			<!-- gif icon -->
 			<svg width="30px" height="30px" viewBox="0 0 24 24"
 				><path
-					fill="currentColor"
+					fill="#1da1f2"
 					d="M8.5 14h1q.425 0 .713-.288q.287-.287.287-.712v-1h-1v1h-1v-2h2q0-.425-.287-.713Q9.925 10 9.5 10h-1q-.425 0-.712.287q-.288.288-.288.713v2q0 .425.288.712q.287.288.712.288Zm3 0h1v-4h-1Zm2 0h1v-1.5H16v-1h-1.5V11h2v-1h-3ZM5 21q-.825 0-1.413-.587Q3 19.825 3 19V5q0-.825.587-1.413Q4.175 3 5 3h14q.825 0 1.413.587Q21 4.175 21 5v14q0 .825-.587 1.413Q19.825 21 19 21Zm0-2h14V5H5v14ZM5 5v14V5Z"
 				/></svg
 			>
@@ -43,7 +43,7 @@
 			<svg width="30px" height="30px" viewBox="0 0 24 24"
 				><g
 					fill="none"
-					stroke="currentColor"
+					stroke="#1da1f2"
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="2"
@@ -56,7 +56,7 @@
 			<svg width="30px" height="30px" viewBox="0 0 16 16"
 				><g
 					fill="none"
-					stroke="currentColor"
+					stroke="#1da1f2"
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="1.5"
@@ -68,14 +68,14 @@
 			<!-- calendar icon -->
 			<svg width="30px" height="30px" viewBox="0 0 24 24"
 				><path
-					fill="currentColor"
+					fill="#1da1f2"
 					d="M6 1v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h6.1c1.26 1.24 2.99 2 4.9 2c3.87 0 7-3.13 7-7c0-1.91-.76-3.64-2-4.9V5a2 2 0 0 0-2-2h-1V1h-2v2H8V1M5 5h14v2H5m0 2h14v.67c-.91-.43-1.93-.67-3-.67c-3.87 0-7 3.13-7 7c0 1.07.24 2.09.67 3H5m11-7.85c2.68 0 4.85 2.17 4.85 4.85c0 2.68-2.17 4.85-4.85 4.85c-2.68 0-4.85-2.17-4.85-4.85c0-2.68 2.17-4.85 4.85-4.85M15 13v3.69l3.19 1.84l.75-1.3l-2.44-1.41V13Z"
 				/></svg
 			>
 			<!-- location icon -->
 			<svg width="30px" height="30px" viewBox="0 0 24 24"
 				><path
-					fill="none"
+					fill="#1da1f2"
 					stroke="currentColor"
 					strokeWidth="2"
 					d="M12 22s-8-6-8-12c0-5 4-8 8-8s8 3 8 8c0 6-8 12-8 12Zm0-9a3 3 0 1 0 0-6a3 3 0 0 0 0 6Z"
@@ -88,9 +88,10 @@
 
 {#if tweets}
 	{#each tweets.reverse() as tweet}
+		<!-- puts each tweet into div -->
 		<div class="oneTweet">
 			<div class="handleTime">
-				<div>
+				<div class="tweetBoxNoContent">
 					<!-- profile pic icon -->
 					<svg width="60px" height="60px" viewBox="0 0 48 48"
 						><g fill="currentColor" fillRule="evenodd" clipRule="evenodd"
@@ -105,13 +106,85 @@
 					<p>&nbsp;·&nbsp;</p>
 					<p>{new Date(tweet.posted).toLocaleString()}</p>
 				</div>
+				<br />
+			</div>
+			<div class="tweetContent">
 				<p class="tweet">{tweet.content}</p>
+			</div>
+			<!-- Like/Share/Etc -->
+			<div class="tweetButtons">
+				<!-- reply -->
+				<svg
+					width="30px"
+					height="30px"
+					viewBox="0 0 24 24"
+					aria-hidden="true"
+					class="r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-1hdv0qi"
+					><g
+						><path
+							d="M1.751 10c0-4.42 3.584-8 8.005-8h4.366c4.49 0 8.129 3.64 8.129 8.13 0 2.96-1.607 5.68-4.196 7.11l-8.054 4.46v-3.69h-.067c-4.49.1-8.183-3.51-8.183-8.01zm8.005-6c-3.317 0-6.005 2.69-6.005 6 0 3.37 2.77 6.08 6.138 6.01l.351-.01h1.761v2.3l5.087-2.81c1.951-1.08 3.163-3.13 3.163-5.36 0-3.39-2.744-6.13-6.129-6.13H9.756z"
+						/></g
+					></svg
+				>
+				<!-- retweet -->
+				<svg
+					width="30px"
+					height="30px"
+					viewBox="0 0 24 24"
+					aria-hidden="true"
+					class="r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-1hdv0qi"
+					><g
+						><path
+							d="M4.5 3.88l4.432 4.14-1.364 1.46L5.5 7.55V16c0 1.1.896 2 2 2H13v2H7.5c-2.209 0-4-1.79-4-4V7.55L1.432 9.48.068 8.02 4.5 3.88zM16.5 6H11V4h5.5c2.209 0 4 1.79 4 4v8.45l2.068-1.93 1.364 1.46-4.432 4.14-4.432-4.14 1.364-1.46 2.068 1.93V8c0-1.1-.896-2-2-2z"
+						/></g
+					></svg
+				>
+				<!-- like -->
+				<svg
+					width="30px"
+					height="30px"
+					viewBox="0 0 24 24"
+					aria-hidden="true"
+					class="r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-1hdv0qi"
+					><g
+						><path
+							d="M16.697 5.5c-1.222-.06-2.679.51-3.89 2.16l-.805 1.09-.806-1.09C9.984 6.01 8.526 5.44 7.304 5.5c-1.243.07-2.349.78-2.91 1.91-.552 1.12-.633 2.78.479 4.82 1.074 1.97 3.257 4.27 7.129 6.61 3.87-2.34 6.052-4.64 7.126-6.61 1.111-2.04 1.03-3.7.477-4.82-.561-1.13-1.666-1.84-2.908-1.91zm4.187 7.69c-1.351 2.48-4.001 5.12-8.379 7.67l-.503.3-.504-.3c-4.379-2.55-7.029-5.19-8.382-7.67-1.36-2.5-1.41-4.86-.514-6.67.887-1.79 2.647-2.91 4.601-3.01 1.651-.09 3.368.56 4.798 2.01 1.429-1.45 3.146-2.1 4.796-2.01 1.954.1 3.714 1.22 4.601 3.01.896 1.81.846 4.17-.514 6.67z"
+						/></g
+					></svg
+				>
+				<!-- share -->
+				<svg
+					width="30px"
+					height="30px"
+					viewBox="0 0 24 24"
+					aria-hidden="true"
+					class="r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-1hdv0qi"
+					><g
+						><path
+							d="M12 2.59l5.7 5.7-1.41 1.42L13 6.41V16h-2V6.41l-3.3 3.3-1.41-1.42L12 2.59zM21 15l-.02 3.51c0 1.38-1.12 2.49-2.5 2.49H5.5C4.11 21 3 19.88 3 18.5V15h2v3.5c0 .28.22.5.5.5h12.98c.28 0 .5-.22.5-.5L19 15h2z"
+						/></g
+					></svg
+				>
 			</div>
 		</div>
 	{/each}
 {/if}
 
 <style>
+	.tweetButtons {
+		padding: 8px;
+		display: flex;
+
+		justify-content: space-around;
+		padding: 25px 10px 0;
+	}
+	.tweetBoxNoContent {
+		display: flex;
+	}
+	.tweetContent {
+		display: block;
+		margin: 0;
+	}
 	.composeTweetBox {
 		border: 1px solid rgba(231, 231, 231);
 		max-width: 90%;
@@ -173,6 +246,7 @@
 	.tweet {
 		font-size: large;
 		padding-left: 10%;
+		margin: 0;
 	}
 
 	.userID {
