@@ -10,7 +10,7 @@
 	<pre aria-hidden="true" style="min-height: {minHeight}; max-height: {maxHeight}">{value +
 			'\n'}</pre>
 
-	<textarea placeholder="What's Happening?" bind:value />
+	<textarea placeholder="What's happening?" bind:value />
 </div>
 
 <style>
@@ -25,7 +25,7 @@
 		outline: 0;
 		border-width: 0 0 2px;
 		border-color: lightgray;
-		font-size: 24px;
+		font-size: 30px;
 	}
 
 	textarea {

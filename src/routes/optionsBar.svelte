@@ -12,24 +12,32 @@
 <section>
 	<!-- Home -->
 	<div class="home iconWord">
-		<svg class="icon" width="30px" height="30px" viewBox="0 0 24 24"
-			><path
-				fill="currentColor"
-				d="m21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10A1 1 0 0 0 3 14h2v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7h2a.998.998 0 0 0 .743-1.669zM12 16a3 3 0 1 1 0-6a3 3 0 0 1 0 6z"
-			/></svg
+		<svg
+			width="40px"
+			height="40px"
+			viewBox="0 0 24 24"
+			aria-hidden="true"
+			class="r-18jsvk2 r-4qtqp9 r-yyyyoo r-lwhw9o r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-cnnz9e"
+			><g
+				><path
+					d="M12 1.696L.622 8.807l1.06 1.696L3 9.679V19.5C3 20.881 4.119 22 5.5 22h13c1.381 0 2.5-1.119 2.5-2.5V9.679l1.318.824 1.06-1.696L12 1.696zM12 16.5c-1.933 0-3.5-1.567-3.5-3.5s1.567-3.5 3.5-3.5 3.5 1.567 3.5 3.5-1.567 3.5-3.5 3.5z"
+				/></g
+			></svg
 		>
 
 		<a href="/">Home</a>
 	</div>
 	<!-- Explore -->
 	<div class="iconWord">
-		<svg width="30px" height="30px" viewBox="0 0 24 24"
-			><g fill="none" fillRule="evenodd"
+		<svg
+			width="40px"
+			height="40px"
+			viewBox="0 0 24 24"
+			aria-hidden="true"
+			class="r-18jsvk2 r-4qtqp9 r-yyyyoo r-lwhw9o r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-cnnz9e"
+			><g
 				><path
-					d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z"
-				/><path
-					fill="currentColor"
-					d="M10.124 3.008a1 1 0 0 1 .868 1.116L10.508 8h3.984l.516-4.124a1 1 0 1 1 1.984.248L16.508 8H20a1 1 0 1 1 0 2h-3.742l-.5 4H19.5a1 1 0 1 1 0 2h-3.992l-.516 4.124a1 1 0 1 1-1.984-.248L13.492 16H9.508l-.516 4.124a1 1 0 1 1-1.984-.248L7.492 16H4.5a1 1 0 1 1 0-2h3.242l.5-4H5a1 1 0 0 1 0-2h3.492l.516-4.124a1 1 0 0 1 1.116-.868ZM13.742 14l.5-4h-3.984l-.5 4h3.984Z"
+					d="M10.09 3.098L9.72 7h5.99l.39-4.089 1.99.187L17.72 7h3.78v2h-3.97l-.56 6h3.53v2h-3.72l-.38 4.089-1.99-.187.36-3.902H8.78l-.38 4.089-1.99-.187L6.77 17H2.5v-2h4.46l.56-6H3.5V7h4.21l.39-4.089 1.99.187zM14.96 15l.56-6H9.53l-.56 6h5.99z"
 				/></g
 			></svg
 		>
@@ -37,26 +45,38 @@
 	</div>
 	<!-- Notifications -->
 	<div class="iconWord">
-		<svg width="30px" height="30px" viewBox="0 0 512 512"
-			><path
-				fill="currentColor"
-				d="m450.27 348.569l-43.67-80.624V184c0-83.813-68.187-152-152-152s-152 68.187-152 152v83.945l-43.672 80.623A24 24 0 0 0 80.031 384h86.935a88.866 88.866 0 0 0-.367 8a88 88 0 0 0 176 0c0-2.7-.129-5.364-.367-8h86.935a24 24 0 0 0 21.1-35.431ZM310.6 392a56 56 0 1 1-111.419-8h110.837a56.14 56.14 0 0 1 .582 8ZM93.462 352l41.138-75.945V184a120 120 0 0 1 240 0v92.055L415.736 352Z"
-			/></svg
+		<svg
+			width="40px"
+			height="40px"
+			viewBox="0 0 24 24"
+			aria-hidden="true"
+			class="r-18jsvk2 r-4qtqp9 r-yyyyoo r-lwhw9o r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-cnnz9e"
+			><g
+				><path
+					d="M19.993 9.042C19.48 5.017 16.054 2 11.996 2s-7.49 3.021-7.999 7.051L2.866 18H7.1c.463 2.282 2.481 4 4.9 4s4.437-1.718 4.9-4h4.236l-1.143-8.958zM12 20c-1.306 0-2.417-.835-2.829-2h5.658c-.412 1.165-1.523 2-2.829 2zm-6.866-4l.847-6.698C6.364 6.272 8.941 4 11.996 4s5.627 2.268 6.013 5.295L18.864 16H5.134z"
+				/></g
+			></svg
 		>
 		<a href="/Notifications">Notifications</a>
 	</div>
 	<!-- Messages -->
 	<div class="iconWord">
-		<svg width="30px" height="30px" viewBox="0 0 24 24"
-			><path
-				fill="currentColor"
-				d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223l-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044L20.002 18H4z"
-			/></svg
+		<svg
+			width="40px"
+			height="40px"
+			viewBox="0 0 24 24"
+			aria-hidden="true"
+			class="r-18jsvk2 r-4qtqp9 r-yyyyoo r-lwhw9o r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-cnnz9e"
+			><g
+				><path
+					d="M1.998 5.5c0-1.381 1.119-2.5 2.5-2.5h15c1.381 0 2.5 1.119 2.5 2.5v13c0 1.381-1.119 2.5-2.5 2.5h-15c-1.381 0-2.5-1.119-2.5-2.5v-13zm2.5-.5c-.276 0-.5.224-.5.5v2.764l8 3.638 8-3.636V5.5c0-.276-.224-.5-.5-.5h-15zm15.5 5.463l-8 3.636-8-3.638V18.5c0 .276.224.5.5.5h15c.276 0 .5-.224.5-.5v-8.037z"
+				/></g
+			></svg
 		>
 		<a href="/Messages">Messages</a>
 	</div>
 	<!-- Bookmarks -->
-	<div class="iconWord">
+	<!-- <div class="iconWord">
 		<svg width="30px" height="30px" viewBox="0 0 24 24"
 			><path
 				fill="currentColor"
@@ -64,27 +84,36 @@
 			/></svg
 		>
 		<a href="/Bookmarks">Bookmarks</a>
-	</div>
+	</div> -->
 	<!-- Profile -->
 	<div class="iconWord">
-		<svg width="30px" height="30px" viewBox="0 0 32 32"
-			><path
-				fill="currentColor"
-				d="M16 8a5 5 0 1 0 5 5a5 5 0 0 0-5-5Zm0 8a3 3 0 1 1 3-3a3.003 3.003 0 0 1-3 3Z"
-			/><path
-				fill="currentColor"
-				d="M16 2a14 14 0 1 0 14 14A14.016 14.016 0 0 0 16 2Zm-6 24.377V25a3.003 3.003 0 0 1 3-3h6a3.003 3.003 0 0 1 3 3v1.377a11.899 11.899 0 0 1-12 0Zm13.992-1.451A5.002 5.002 0 0 0 19 20h-6a5.002 5.002 0 0 0-4.992 4.926a12 12 0 1 1 15.985 0Z"
-			/></svg
+		<svg
+			width="40px"
+			height="40px"
+			viewBox="0 0 24 24"
+			aria-hidden="true"
+			class="r-18jsvk2 r-4qtqp9 r-yyyyoo r-lwhw9o r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-cnnz9e"
+			><g
+				><path
+					d="M5.651 19h12.698c-.337-1.8-1.023-3.21-1.945-4.19C15.318 13.65 13.838 13 12 13s-3.317.65-4.404 1.81c-.922.98-1.608 2.39-1.945 4.19zm.486-5.56C7.627 11.85 9.648 11 12 11s4.373.85 5.863 2.44c1.477 1.58 2.366 3.8 2.632 6.46l.11 1.1H3.395l.11-1.1c.266-2.66 1.155-4.88 2.632-6.46zM12 4c-1.105 0-2 .9-2 2s.895 2 2 2 2-.9 2-2-.895-2-2-2zM8 6c0-2.21 1.791-4 4-4s4 1.79 4 4-1.791 4-4 4-4-1.79-4-4z"
+				/></g
+			></svg
 		>
 		<a href="/Profile">Profile</a>
 	</div>
 	<!-- More -->
 	<div class="iconWord">
-		<svg width="30px" height="30px" viewBox="0 0 256 256"
-			><path
-				fill="currentColor"
-				d="M128 24a104 104 0 1 0 104 104A104.2 104.2 0 0 0 128 24Zm0 192a88 88 0 1 1 88-88a88.1 88.1 0 0 1-88 88Zm12-88a12 12 0 1 1-12-12a12 12 0 0 1 12 12Zm48 0a12 12 0 1 1-12-12a12 12 0 0 1 12 12Zm-96 0a12 12 0 1 1-12-12a12 12 0 0 1 12 12Z"
-			/></svg
+		<svg
+			width="40px"
+			height="40px"
+			viewBox="0 0 24 24"
+			aria-hidden="true"
+			class="r-18jsvk2 r-4qtqp9 r-yyyyoo r-lwhw9o r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-cnnz9e"
+			><g
+				><path
+					d="M3.75 12c0-4.56 3.69-8.25 8.25-8.25s8.25 3.69 8.25 8.25-3.69 8.25-8.25 8.25S3.75 16.56 3.75 12zM12 1.75C6.34 1.75 1.75 6.34 1.75 12S6.34 22.25 12 22.25 22.25 17.66 22.25 12 17.66 1.75 12 1.75zm-4.75 11.5c.69 0 1.25-.56 1.25-1.25s-.56-1.25-1.25-1.25S6 11.31 6 12s.56 1.25 1.25 1.25zm9.5 0c.69 0 1.25-.56 1.25-1.25s-.56-1.25-1.25-1.25-1.25.56-1.25 1.25.56 1.25 1.25 1.25zM13.25 12c0 .69-.56 1.25-1.25 1.25s-1.25-.56-1.25-1.25.56-1.25 1.25-1.25 1.25.56 1.25 1.25z"
+				/></g
+			></svg
 		>
 		<a href="/More">More</a>
 	</div>
@@ -98,7 +127,7 @@
 		display: flex;
 		flex-direction: column;
 
-		font-size: larger;
+		font-size: 30px;
 		font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 		text-decoration: none;
@@ -117,7 +146,8 @@
 		min-width: 35%;
 		min-height: 4rem;
 		color: white;
-		font-size: large;
+		font-size: larger;
+		font-weight: bold;
 	}
 	button:focus {
 		box-shadow: none;
@@ -126,7 +156,7 @@
 	}
 
 	svg {
-		padding: 5px;
+		padding: 15px;
 		align-self: center;
 	}
 	.iconWord {
