@@ -1,5 +1,6 @@
 <script lang="ts"></script>
 
+<!-- part of the website on the right that has the search bar and trends bar -->
 <section>
 	<div class="search">
 		<svg width="30px" height="30px" viewBox="0 0 24 24"

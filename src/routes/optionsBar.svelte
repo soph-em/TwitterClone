@@ -1,6 +1,7 @@
 <script lang="ts">
 </script>
 
+<!-- options bar on left of website -->
 <!-- twitter bird svg -->
 <svg class="bird" width="50px" height="50px" viewBox="0 0 256 209">
 	<path
