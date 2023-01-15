@@ -1,5 +1,12 @@
 <script lang="ts">
 	import TextInput from './textAreaPre.svelte';
+	let val = '';
+	export let value = '';
+	export let minRows = 1;
+	export let maxRows;
+	// $: minHeight = `${1 + minRows * 1.2}em`;
+	// $: maxHeight = maxRows ? `${1 + maxRows * 1.2}em` : `auto`;
+	let tweet = '';
 </script>
 
 <div class="container">
@@ -12,16 +19,69 @@
 			/></g
 		></svg
 	>
-	<TextInput />
+	<div class="text">
+		<div class="textcontainer">
+			<div bind:innerHTML={tweet} class="textarea" contenteditable="true" />
+		</div>
+	</div>
 </div>
 
 <style>
+	.textarea {
+		outline: 1px solid red;
+		width: 100%;
+		min-height: 50px;
+		height: auto;
+		border: 2px solid rgba(63, 63, 63, 1);
+		background: white;
+	}
 	.container {
 		position: relative;
+		/* display: flex; */
+		/* height: auto; */
+		/* flex-wrap: wrap; */
+	}
+	.textinput {
+		max-width: 80%;
+	}
+	.text {
 		display: flex;
+		align-items: center;
+		justify-content: center;
+		max-width: 80%;
+		min-width: 80%;
 	}
 	svg {
 		align-self: flex-start;
 		align-self: left;
 	}
+
+	.textcontainer {
+		/* position: relative; */
+		max-width: 80%;
+		/* display: flex; */
+	}
+	/* pre,
+	textarea {
+		padding: 0.5em;
+		box-sizing: border-box;
+		border: 1px solid #eee;
+		line-height: 1.2;
+		overflow: hidden;
+		resize: vertical;
+
+		outline: 0;
+		border-width: 0 0 2px;
+		border-color: lightgray;
+		font-size: 30px;
+		max-width: 80%;
+	}
+
+	textarea {
+		position: absolute;
+		width: 80%;
+		height: 100%;
+		top: 0;
+		resize: none;
+	} */
 </style>

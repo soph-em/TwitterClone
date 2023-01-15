@@ -12,10 +12,13 @@
 	function likeTweet(tweet: any) {
 		fetch('/Like', { method: 'POST', body: JSON.stringify({ tweetId: tweet.id }) });
 		tweet.likes += 1;
+		tweet.liked = true;
 		tweets = tweets;
 	}
 	export let tweets;
 	tweets.reverse();
+
+	// let active = { tweet.liked: false };
 </script>
 
 <!-- div of entire compose tweet box -->
@@ -173,8 +176,9 @@
 					></svg
 				>
 				<!-- like -->
-				<button on:click={() => likeTweet(tweet)}>
+				<button class="likes" on:click={() => likeTweet(tweet)}>
 					<svg
+						class:active={tweet.liked}
 						fill="grey"
 						width="30px"
 						height="30px"
@@ -209,6 +213,19 @@
 {/if}
 
 <style>
+	.active {
+		fill: red;
+	}
+	.likes {
+		padding: 0;
+		border: none;
+		background: none;
+	}
+
+	svg:hover {
+		fill: black;
+	}
+
 	.tweetButtons {
 		padding: 8px;
 		display: flex;
