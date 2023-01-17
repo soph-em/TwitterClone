@@ -4,7 +4,7 @@
 	import SearchTrendsBar from './searchTrendsBar.svelte';
 	import type { PageData } from './$types';
 	export let data: PageData;
-	console.log(data);
+	// console.log(data);
 </script>
 
 <section>
@@ -25,17 +25,17 @@
 	}
 	.options {
 		min-width: 20%;
-		padding-left: 10%;
+		padding-left: 10vh;
 	}
 
 	.feed {
-		min-width: 40%;
+		min-width: 45%;
 		display: flex;
 		flex-direction: column;
 	}
 	.search {
 		margin-left: auto;
-		padding-right: 15%;
+		padding-right: 5%;
 		padding-top: 50px;
 	}
 </style>

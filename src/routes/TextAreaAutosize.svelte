@@ -1,5 +1,5 @@
 <script lang="ts">
-	import TextInput from './textAreaPre.svelte';
+	// import TextInput from './textAreaPre.svelte';
 	let val = '';
 	export let value = '';
 	export let minRows = 1;
@@ -45,7 +45,7 @@
 		font-size: 20px;
 	}
 	.textarea {
-		width: 40rem;
+		width: 20rem;
 		min-height: 5rem;
 		height: auto;
 		align-items: flex-start;
